@@ -1,0 +1,17 @@
+int getCount(struct Node* head)
+    {
+        int i=1;
+        struct Node* next;
+        struct Node* temp;
+        temp=head;
+        while(temp->next != NULL)
+        {
+            
+            temp=temp->next;
+            i++;
+            
+            
+            
+        }
+        return i;
+        
